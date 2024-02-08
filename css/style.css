@@ -210,7 +210,7 @@ span {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto 48px;
-  max-width: 496px;
+  min-width: 496px;
 }
 
 /*BUTTON*/
@@ -587,11 +587,10 @@ ul.list-our-team li {
 .social-container-footer {
   max-width: 208px;
   flex-shrink: 0;
-
 }
 
 .text-social-footer {
-  color: var(--WHITE, #FFF);
+  color: #FFF;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -626,3 +625,86 @@ ul.list-our-team li {
 .item-social-footer .link-social-footer:focus {
   background-color: #31D0AA;
 }
+
+
+.footer-form {
+  margin-left: 80px;
+  max-width: 453px;
+}
+
+.footer-form-title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+
+}
+
+.input-cointainer {
+  display: flex;
+}
+
+
+.form-input {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 264px;
+  max-height: 40px;
+  background-color: #2E2F42;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.email-btn {
+  display: flex;
+  margin-left: 24px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #4D5AE5;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.email-btn:hover,
+.email-btn:focus {
+  background-color: #404BBF;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-subccribe {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.icon-email-btn {
+  fill: #FFFFFF;
+}
+
+/* MODAL */
