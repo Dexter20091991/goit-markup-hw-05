@@ -626,52 +626,57 @@ ul.list-our-team li {
   background-color: #31D0AA;
 }
 
-
-.footer-form-container {
-  margin-left: 80px;
-  max-width: 453px;
-}
-
+/* FORM FOR FOOTER  */
 .footer-form {
   display: flex;
   gap: 24px;
+
 }
 
-.footer-form-title {
-  color: #FFF;
+.footer-form-container {
+  display: flex;
+  height: 80px;
+  max-width: 453px;
+  margin-left: 80px;
+}
+
+.footer-label-form {
+  color: #FFFFFF;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
-
 }
 
-.input-cointainer {
+.footer-form {
   display: flex;
 }
 
+.label-text {
+  color: #fffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .form-input {
-  display: flex;
-  border-radius: 4px;
-  border: 1px solid #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   min-width: 264px;
   max-height: 40px;
+  border: 1px solid #FFF;
   background-color: transparent;
-  font-family: Roboto;
   font-size: 12px;
-  color: #ffffff;
+  line-height: 2;
+  letter-spacing: 0.04em;
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-
-}
-
-input:focus {
-  outline: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  margin-top: 16px;
 }
 
 .form-input::placeholder {
@@ -680,17 +685,23 @@ input:focus {
 }
 
 .email-btn {
-
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   display: flex;
-  margin-left: 24px;
-  padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  background-color: #4D5AE5;
-  border-radius: 4px;
+  min-width: 165px;
+  height: 40px;
   cursor: pointer;
+  background-color: #4d5ae5;
   border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  align-self: flex-end;
 }
 
 .email-btn:hover,
@@ -699,14 +710,8 @@ input:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-subccribe {
-  text-align: center;
-  color: #FFFFFF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+.icon-email-btn {
+  margin-left: 16px;
 }
 
 .icon-email-btn {
