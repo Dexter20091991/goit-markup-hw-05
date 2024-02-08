@@ -627,9 +627,14 @@ ul.list-our-team li {
 }
 
 
-.footer-form {
+.footer-form-container {
   margin-left: 80px;
   max-width: 453px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-form-title {
@@ -655,7 +660,7 @@ ul.list-our-team li {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   min-width: 264px;
   max-height: 40px;
-  background-color: #2E2F42;
+  background-color: transparent;
   font-family: Roboto;
   font-size: 12px;
   color: #ffffff;
@@ -675,6 +680,7 @@ input:focus {
 }
 
 .email-btn {
+
   display: flex;
   margin-left: 24px;
   padding: 8px 24px;
