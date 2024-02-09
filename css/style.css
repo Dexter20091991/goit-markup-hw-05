@@ -628,13 +628,11 @@ ul.list-our-team li {
 
 /* FORM FOR FOOTER  */
 .footer-form {
-  display: flex;
   gap: 24px;
 
 }
 
 .footer-form-container {
-  display: flex;
   height: 80px;
   max-width: 453px;
   margin-left: 80px;
@@ -654,7 +652,7 @@ ul.list-our-team li {
 }
 
 .label-text {
-  color: #fffff;
+  color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
