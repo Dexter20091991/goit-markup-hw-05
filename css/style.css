@@ -265,8 +265,6 @@ span {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -653,7 +651,7 @@ ul.list-our-team li {
   position: relative;
 }
 
-.input-form:focus+.icon-input {
+.input-form:focus~.icon-input {
   fill: #4D5AE5;
 }
 
@@ -916,7 +914,7 @@ ul.list-our-team li {
 
 .form-btn {
   display: block;
-  font-family: "Roboto" sans-serif;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
