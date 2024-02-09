@@ -653,7 +653,7 @@ ul.list-our-team li {
   position: relative;
 }
 
-.input-form:focus+.icon-input use {
+.input-form:focus+.icon-input {
   fill: #4D5AE5;
 }
 
