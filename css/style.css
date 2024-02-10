@@ -876,15 +876,14 @@ ul.list-our-team li {
 }
 
 .container-checkbox {
-  display: flex;
-  gap: 8px;
+
   margin-bottom: 24px;
-  position: relative;
+
 }
 
 .form-label-checkbox {
   color: #8E8F99;
-  font-family: Roboto;
+
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
