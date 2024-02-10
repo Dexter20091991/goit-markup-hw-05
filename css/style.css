@@ -258,7 +258,7 @@ span {
 
 .visually-hidden {
   position: absolute;
-  opacity: 0;
+  opacity: 1;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -953,7 +953,7 @@ ul.list-our-team li {
   margin-bottom: 2px;
 }
 
-.input-form:checked~.span-checkbox {
+.input-form:checked~.form-label-checkbox~.span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
