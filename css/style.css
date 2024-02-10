@@ -258,7 +258,7 @@ span {
 
 .visually-hidden {
   position: absolute;
-  opacity: 1;
+  opacity: 0;
   width: 1px;
   height: 1px;
   margin: -1px;
