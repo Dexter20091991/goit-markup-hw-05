@@ -960,11 +960,11 @@ ul.list-our-team li {
 .visually-hidden:checked~.form-label-checkbox span {
   background-color: #404bbf;
   border: none;
-  fill: var(--OCEAN, #404BBF);
+
 
 }
 
-/* .visually-hidden:checked~.form-label-checkbox .span-checkbox .svg-checkbox {
-  fill: #F4F4FD;
-  stroke: #404bbf;
-} */
+.visually-hidden:checked~.form-label-checkbox .span-checkbox .svg-checkbox {
+  fill: var(--OCEAN, #404BBF);
+  border: none;
+}
