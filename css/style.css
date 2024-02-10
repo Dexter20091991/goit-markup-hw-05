@@ -536,11 +536,8 @@ ul.list-our-team li {
 
 .footer-content {
   background-color: #2e2f42;
-  font-family: "Roboto", sans-serif;
   padding: 100px 0;
-  display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
+
 }
 
 .footer-container {
@@ -562,21 +559,12 @@ ul.list-our-team li {
 
 .second-part {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+
 }
 
 .footer-text {
   color: #f4f4fd;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
@@ -588,13 +576,12 @@ ul.list-our-team li {
 
 .social-container-footer {
   max-width: 208px;
-  flex-shrink: 0;
+
 }
 
 .text-social-footer {
   color: #FFF;
-  font-family: Roboto;
-  font-size: 16px;
+
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -641,7 +628,7 @@ ul.list-our-team li {
 
 .footer-label-form {
   color: #FFFFFF;
-  font-family: Roboto;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -662,7 +649,7 @@ ul.list-our-team li {
 
 .label-text {
   color: #ffffff;
-  font-family: Roboto;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -800,7 +787,7 @@ ul.list-our-team li {
 
 .title-form {
   color: #2E2F42;
-  font-family: Roboto;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -951,20 +938,18 @@ ul.list-our-team li {
   fill: transparent;
 }
 
-.svg-checkbox {
-  margin-bottom: 2px;
-}
 
 
 
 .visually-hidden:checked~.form-label-checkbox span {
   background-color: #404bbf;
   border: none;
+  fill: #fff;
 
 
 }
 
-.visually-hidden:checked~.form-label-checkbox .span-checkbox .svg-checkbox {
-  fill: var(--OCEAN, #404BBF);
+/* .visually-hidden:checked~.form-label-checkbox .span-checkbox .svg-checkbox {
+ 
   border: none;
-}
+} */
