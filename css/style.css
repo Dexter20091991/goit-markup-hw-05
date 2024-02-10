@@ -259,8 +259,9 @@ span {
 .visually-hidden {
   position: absolute;
   opacity: 0;
-  width: 1px;
-  height: 1px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
   margin: -1px;
   border: 0;
   padding: 0;
@@ -891,6 +892,7 @@ ul.list-our-team li {
   display: flex;
   gap: 8px;
   margin-bottom: 24px;
+  position: relative;
 }
 
 .form-label-checkbox {
@@ -953,8 +955,12 @@ ul.list-our-team li {
   margin-bottom: 2px;
 }
 
-.input-form:checked~.form-label-checkbox~.span-checkbox {
+.input-form:checked~.form-label-checkbox~.span-checkbox .svg-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
+}
+
+.visually-hidden:checked~.form-label-checkbox .span-checkbox {
+  background-color: #404bbf;
 }
