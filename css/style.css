@@ -952,3 +952,9 @@ ul.list-our-team li {
 .svg-checkbox {
   margin-bottom: 2px;
 }
+
+.input-form:checked~.span-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
