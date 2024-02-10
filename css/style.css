@@ -960,7 +960,7 @@ ul.list-our-team li {
 .visually-hidden:checked~.form-label-checkbox span {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: var(--OCEAN, #404BBF);
 
 }
 
