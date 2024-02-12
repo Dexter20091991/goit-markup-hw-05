@@ -237,13 +237,10 @@ span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover {
-  background-color: #404bbf;
-
-}
-
+.button:hover,
 .button:focus {
   background-color: #404bbf;
+
 }
 
 /*FEATURES_CONTENT*/
@@ -836,6 +833,7 @@ ul.list-our-team li {
 }
 
 .icon-input {
+  fill: #2E2F42;
   width: 18px;
   height: 24px;
   position: absolute;
@@ -925,6 +923,12 @@ ul.list-our-team li {
   cursor: pointer;
 }
 
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #404BBF;
+
+}
+
 .span-checkbox {
   width: 16px;
   height: 16px;
@@ -935,12 +939,8 @@ ul.list-our-team li {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
-
-
-
-
-
 
 .input-form:checked+.form-label-checkbox>.span-checkbox {
   background-color: #404bbf;
